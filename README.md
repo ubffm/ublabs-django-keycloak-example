@@ -64,6 +64,8 @@ source venv/bin/activate
 
 export KC_CLIENT_SECRET="changme"
 ./manage.py migrate
+
+./manage.py runserver
 ```
 
 ## Demo
