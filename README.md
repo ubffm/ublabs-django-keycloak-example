@@ -43,7 +43,7 @@ docker compose up -d
 * Create realm *example*
 * Create client *django*
   * Lookup client credentials
-  * Export client secret `export KC_CLIENT_SECRET="changme"`
+  * Export client secret `export KC_CLIENT_SECRET="changeme"`
 
 ![](./docs/kc-supp-1.mp4)
 
@@ -62,7 +62,7 @@ make venv
 
 source venv/bin/activate
 
-export KC_CLIENT_SECRET="changme"
+export KC_CLIENT_SECRET="changeme"
 
 ./manage.py migrate
 
