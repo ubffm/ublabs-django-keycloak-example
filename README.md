@@ -28,17 +28,6 @@ This project is a copy of [django-allauth](https://github.com/pennersr/django-al
 
 ## Quickstart
 
-### Django
-
-```
-make venv
-# Django             5.0.7
-# django-allauth     64.0.0
-
-source venv/bin/activate
-
-./manage.py migrate
-```
 
 ### Keycloak
 
@@ -54,9 +43,9 @@ docker compose up -d
 * Create realm *example*
 * Create client *django*
   * Lookup client credentials
+  * Export client secret `export KC_CLIENT_SECRET="changme"`
 
 ![](./docs/kc-supp-1.mp4)
-
 
 #### Enable user registration
 
@@ -64,6 +53,18 @@ docker compose up -d
 
 ![](./docs/kc-supp-2.mp4)
 
+### Django
+
+```
+make venv
+# Django             5.0.7
+# django-allauth     64.0.0
+
+source venv/bin/activate
+
+export KC_CLIENT_SECRET="changme"
+./manage.py migrate
+```
 
 ## Demo
 
