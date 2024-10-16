@@ -71,6 +71,4 @@ export KC_CLIENT_SECRET="changeme"
 
 ## Demo
 
-* Show login process
-
-![](./docs/kc-supp-3.mp4)
+[Video](https://github.com/ubffm/ublabs-django-keycloak-example/blob/main/docs/kc-supp-3.mp4)
