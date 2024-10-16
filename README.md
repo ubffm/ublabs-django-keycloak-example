@@ -1,7 +1,7 @@
 # Readme
 
 >
-> 🔗 Accompanying code for the post of the [UB Labs Blog](http://localhost:1313/post/1189/). 🔗
+> 🔗 Accompanying code for the post of the [UB Labs Blog](https://labs.ub.uni-frankfurt.de/post/single-sign-on-with-django-and-keycloak/). 🔗
 >
 
 This project is a copy of [django-allauth](https://github.com/pennersr/django-allauth)/examples/regular-django (tag *[64.0.0](https://github.com/pennersr/django-allauth/releases/tag/64.0.0)*).
